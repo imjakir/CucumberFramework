@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.622 s <<< FAILURE! - in TestSuite
+verifyTitle(academy.ValidateTitleTC)  Time elapsed: 0.172 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED1 COURSES] but found [FEATURED COURSES]
+	at academy.ValidateTitleTC.verifyTitle(ValidateTitleTC.java:25)
+
+verifyTitle1(academy.NavigationBarTC)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
+	at academy.NavigationBarTC.verifyTitle1(NavigationBarTC.java:25)
+
