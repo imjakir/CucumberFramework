@@ -12,7 +12,11 @@ public class MyListeners implements ITestListener {
 	Base b = new Base();
 	
 	public void onTestStart(ITestResult result) {
-
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 	}
 
 
